@@ -1,8 +1,9 @@
 package com.remipradal.dicasestudy.activity2
 
 import com.remipradal.dicasestudy.DateRepository
+import javax.inject.Inject
 
-class Presenter2(
+class Presenter2 @Inject constructor(
     private val dateScreen: DateScreen,
     private val formatter: Formatter,
     private val dateRepository: DateRepository

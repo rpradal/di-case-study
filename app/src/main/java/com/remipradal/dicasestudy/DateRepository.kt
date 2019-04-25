@@ -2,6 +2,6 @@ package com.remipradal.dicasestudy
 
 import org.joda.time.DateTime
 
-object DateRepository {
+class DateRepository {
     var storedDateTime: DateTime? = null
 }
